@@ -1,0 +1,30 @@
+.side_boxes{
+	min-height:50px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#508FC6), color-stop(100%,#EDFAFF)); /* Chrome,Safari4+ */
+   border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+	border:1px #E2E2E2 solid;
+	margin-bottom: 10px;
+        padding-top: 15px;
+	font-size:18px;	
+}
+.side_boxes a{
+	text-decoration:none;
+        display: block;
+	}
+        /*
+.side_boxes li{      
+    padding-left: 20px;
+    background: url('../images/templatemo_list.png') no-repeat scroll 0px 0px transparent;
+    list-style: none;
+	}*/
+        side_boxes_tab{
+        
+	min-height:50px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#508FC6), color-stop(100%,#EDFAFF)); /* Chrome,Safari4+ */
+   border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+	border:1px #E2E2E2 solid;
+	margin-bottom: 10px;
+        padding-left: 150px;
+}

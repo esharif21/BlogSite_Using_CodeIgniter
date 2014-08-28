@@ -1,0 +1,167 @@
+.menu_box{
+	width:100%;
+        height: 25px;
+	padding:10px 3%;
+        border-left: 2px #FD782D solid;
+	border-right: 2px #FD782D solid;
+	display:block;
+        background-image: url(../images/menu-bar.jpg);
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	float:left;
+}
+/* main menu bar start for jQuery */
+
+
+/* menu */
+/* from the template's menu'
+#templatemo_menu {
+	width: 830px;
+	height: 50px;
+	margin: 0 10px 0 100px;
+	padding: 20px 30px 0 0;
+	background: url(images/templatemo_menu.png) top repeat-x;
+}
+
+#templatemo_menu ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+#templatemo_menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#templatemo_menu ul li a {
+	float: left;
+	display: block;
+	width: 112px;
+	height: 48px;
+	padding: 0;
+	margin: 0 5px 0 0 ;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #e4decd;	
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+
+#templatemo_menu ul li a:hover, #templatemo_menu ul li .current {
+	height: 38px;
+	padding-top: 10px;
+	color: #fff;
+	background: url(images/templatemo_menu_hover.png) bottom no-repeat;
+}*/
+
+/* end of menu */
+
+
+
+.menu ul{     
+    width: 100%;      
+    list-style: none;     
+    margin: 0px;     
+    padding: 0px; 
+}   
+.menu ul li {     
+    display: block;     
+    float: left;     
+    text-align: center;     
+    margin-left: 0px;     
+    margin-right: 3px;     
+    border-radius: 5px 5px 0px 0px;     
+    -moz-border-radius: 5px 5px 0px 0px;     
+    -webkit-border-radius: 5px 5px 0px 0px;     
+    border-left: 5px solid black;     
+    border-right: 5px solid black;     
+    border-top : 5px solid black;     
+    background-color: #71B1D7; 
+}   
+.menu ul li a{     
+    text-decoration: none;     
+    width: 90%;     
+    color: black;     
+    padding-left: 29px;     
+    padding-right: 29px;      
+}   
+.menu ul li a:hover{      
+    color: blue;      
+    text-decoration: underline; 
+} 
+.menu ul li.active a{     
+    border-bottom: 2px solid #fff;    
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#71B1D7), color-stop(100%,#fff)); /* Chrome,Safari4+ */
+   
+}
+
+.side_menu_box{
+        width: 80%;
+	height:auto;
+	padding:2px 5%;
+	margin: auto;
+        margin-top: 2px;
+        background-image: url(../images/button.jpg);
+        background-repeat: repeat;
+	display:block;
+        color: white;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+        font-weight: bold;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;	
+}
+
+/* start blog archival tree making for jQuery */
+.menu_container{
+    font-size: 11px;
+}
+.plusminus{
+    float:left;
+}
+.menu_head {
+    width: 90%;
+    color: white;
+    background-color: #6C720E;
+    cursor: pointer;
+    margin: 0 0 1px 0;
+    padding: 5px 11px;
+    font-weight: bold;
+}
+.menu_head p{
+    background-color: #3C4107;
+}
+.menu_body {
+    background-color: #70780B;
+}
+.menu_head_month {
+    width: 90%;
+    cursor: pointer;
+    background-color: #70780B;
+    color: white;
+    padding-left: 22px;
+    border-bottom: 1px white solid;
+    float: right;
+}
+
+.menu_body_month {
+    background: lightgray;
+    width: 80%;
+    
+}
+.menu_body_month a{
+    min-width: 100%;
+    margin-left: 20%;
+    background-color: #E3E7AA;
+    display: block;
+    border-bottom: 1px white solid;
+}
+.side_menu_box a{color: white;display: block}

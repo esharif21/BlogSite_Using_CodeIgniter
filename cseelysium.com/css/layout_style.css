@@ -1,0 +1,194 @@
+*{margin:0; padding:0}
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+a{
+    text-decoration:none;
+    cursor: pointer;
+}
+a:hover,a:visited{
+    text-decoration:none;
+}
+.fontsize8{font-size: 13px;}
+
+#tab{background-color: gray;}
+#tab1{background-color: transparent; }
+#tab2{background-color: transparent;}
+
+#tabs{background-color: gray;}
+#tabs-1{background-color: transparent;}
+#tabs-2{background-color: transparent;}
+#tabs-3{background-color: transparent;}
+#refresh{background-color: wheat;}
+#randomdiv{background-color: wheat;}
+table{font-size: 12px; line-height: 10px;}
+table td{padding: 2px;border: none; vertical-align: top;}
+table tbody{background-color: gray;}
+h1 {
+    -webkit-padding-end: 24px;
+    border-bottom: 1px #53630A dashed;
+    color: #53637D;
+    font-size: 200%;
+    font-weight: normal;
+    padding: 8px;
+    margin: 8px 1%;
+    display: block;
+}
+
+body {
+    background-color: #fff;
+    font: 13px/20px normal Helvetica, Arial, sans-serif;
+    color: #4F5155;
+}
+
+#main{
+    width:100%;
+    min-height:400px;
+    height:auto;
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat;
+}
+#header{
+    width:70%;
+    min-height: 50px;
+    background: url(../images/header.jpg)  no-repeat;
+    margin: 0 15% 0 15%;	
+}
+#menubar{
+    width:70%;
+    min-height:25px;
+/*    background-color: #71B1D5;*/
+    margin: 0 15% 0 15%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1B69B2), color-stop(100%,#E8FAFE)); /* Chrome,Safari4+ */
+   
+}
+#content_menubar{
+    width:70%;
+    min-height:40px;
+    background-color:#CCFbbb;
+    padding:0 15% 0 15%;
+}
+#content_cover{
+    width:70%;
+    margin: 0 15% 0 15%;
+    min-height:400px;
+    background-color:#fff;
+    overflow:hidden;
+}
+
+#content{
+    background:#fff url(../loading.gif) no-repeat 50% 50%;
+    width:69%;
+    min-height:495px;
+    float:left;
+    height:auto;
+/*    border-left: 1px gray solid;
+    border-right: 1px gray solid;*/
+}
+#content fieldset {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    min-height: 50px;
+    padding: 10px;
+    background-color: #E8FAFE;
+    margin: 5px 5%;
+}
+#sidebar{
+    background-color: #fff;
+    width:26%;
+    min-height:400px;
+    float:right;
+    padding:20px 2% 20px 2%;
+    height:auto;
+}
+#footerdiv{
+    width:70%;
+    height:50px;
+    background-image: url(../images/footer.jpg);
+    margin: 0 15% 0 15%; 
+    text-align: center;
+}
+
+.contact_info{
+    width:50%;
+    background-color: #E8FAFE;
+    min-height:50px;
+    border: 10px #71B1D7 solid;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 5px 5%;
+    margin: 15px auto;
+}
+
+.projects{
+    width:80%;
+    opacity: .9;
+    background-color: #E8FAFE;
+    min-height:50px;
+    border: 10px #71B1D7 solid;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 5px 5%;
+    margin: 15px auto;
+}
+.projects li {
+    background: url('../images/templatemo_list.png') no-repeat scroll 0px 0px transparent;
+    margin: 0px 0px 20px;
+    padding: 0px 0px 0px 25px;
+    line-height: 1em;
+    list-style: none;
+}
+.my_photo{
+    width: 100px;
+    margin: 3px auto;
+    padding: 5px;
+    border: 1px #71B1D7 solid;
+    background-color: #254760;
+}
+.my_photo img{
+    width: 100px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+}
+.project_cover
+{
+    background-image: url(../images/dev.jpg);
+    min-height: 490px;
+}
+/*for reload captcha*/
+#submitt{
+    width: 50%;
+    height: 25px;
+    background-color:black;
+}
+#div_element{width: 35px;
+             height: 45px;
+             background-color: yellow;
+}
+
+/*others css*/ 
+.pagination{
+    padding: 10px 0;
+    margin:0 1% auto;
+    border: 1px #53630A solid;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    min-height: 10px;
+    background-image: url(../images/pagination.jpg);
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+}
+
+#slider{background-color:transparent; background-image: url(../images/content_loading.gif); min-height: 100px; overflow: hidden;}
+
+.message_style{
+    padding: 8px;
+    margin: 8px 1%;
+    background-color: #F8D0FF;
+    border: 1px #FB7C1F dashed;
+    font-size: 20px;
+    color: #3E4404;
+}

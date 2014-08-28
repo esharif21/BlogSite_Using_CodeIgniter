@@ -1,0 +1,322 @@
+fieldset{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	min-height:50px;
+	padding:10px;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#71B1D7), color-stop(100%,#E8FAFE)); /* Chrome,Safari4+ */
+   
+/*        background-color: #E8FAFE;*/
+}
+legend{
+	margin:1px 0 1px 15px;
+	border:1px #000000 solid;
+	background-color:#71B1D7;
+	color:#fff;
+	border-radius:15px;
+	padding:2px 8px;
+        font-size: 12px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;}
+input[type=text],input[type=password]
+{
+	width:180px;
+	font-size:18px;
+	color:#000099;
+	height:25px;
+	border-radius:5px;
+}
+select
+{
+	width:180px;
+	font-size:18px;
+	color:#000099;
+	border-radius:5px;
+}
+
+.comment
+{
+    border: 1px silver dashed;
+}
+
+
+textarea
+{
+	width: 100%;
+	font-size:18px;
+	color:#000099;
+	border-radius:5px;
+}
+.bloger_photo{
+    width: 13%;
+    height: 70px;
+    padding: 2px;
+    border: 1px blue solid;
+    background-color: #4083C0;
+    float: left;
+}
+.bloger_photo img{
+    width: 100%;
+    height: 100%;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.floatnone{
+    float: none;
+    position:  absolute;
+}
+
+.blog_cover_sub_sub{
+        width: 83%;
+	 height:auto;
+	 overflow:hidden;
+	 border-bottom:1px #666666 solid;
+}
+
+
+.cover{
+        height: 32px;
+	size:auto;
+	overflow:hidden;
+	}
+.textarea_cover{
+        min-height: 50px;
+        size: auto;
+	overflow:hidden;
+	}
+#captha_cover{
+	min-height:100px;
+	size:auto;
+	}
+.part1{
+	float:left;
+	width:25%;
+	}
+.part2{width:72%;
+	float:left;
+	}
+
+#captcha_image{
+	min-height:35px;
+	size:auto;
+        margin-top: 10px;
+	padding:0 0 0 25%;
+	}
+.er{
+		float:right;
+		color:#FF0000;
+		font-size:12px; color:#FF0033;
+		height:25px;
+	}
+
+	.error{
+		color:#FF0000;
+		font-size:12px;
+	}
+	
+	
+	/*for blogs start*/
+	.blog_cover{
+	 background-color:#E8FAFE;
+	 width:98%;
+         padding: 5px;
+	 min-height:160px;
+	 overflow:hidden;
+	 border:1px #666666 dashed;	
+	 margin:0 4px 4px 4px;	
+	}
+        .blog_cover a{
+	text-decoration:none;
+	}
+        .blog_title_and_update_time_cover{
+            min-height: 25px;
+        }
+        .blog_title{
+            width: auto;
+	font-size:24px;
+	color:#660000;
+	 min-height:25px;
+	 overflow:hidden;
+	}
+        
+        .blog_last_update_time{
+	font-size:10px;
+        width: auto;
+	 min-height:10px;
+	 overflow:hidden;
+         color: red;
+         float: left;
+	}
+	.blog_cover_sub{
+	 min-height:52px;
+	 overflow:hidden;
+         padding:5px;
+	/* border-bottom:5px #666666 solid;	*/
+	}
+	.blog_writer{
+	 width:auto;
+         padding: 0px 2px;
+	 float:left;
+	 overflow:hidden;
+	 font-size:16px;
+	 font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+	.blog_date{
+	 width:auto;
+         padding: 0px 2px;
+	 float:left;
+	 font-style:italic;
+	}
+	.blog_type{
+	 width:auto;
+         padding: 0 2px;
+	 float:right;
+	 text-align:left;
+	 color:#006600;
+	}
+	
+	.blog_details{
+	 background-color:#FFFFFF;
+         padding:2px 5% 2px 15%;
+	 min-height:70px;
+	 border-radius:3px;
+         text-align: justify;
+	}
+        .blog_details a{
+            color:  blue;
+        }
+	.blog_actions_cover{
+	padding:2px 5% 2px 15%;
+	font-size:14px;
+	overflow:hidden;
+         background-color: #FFFFFF;
+	}
+	.blog_actions{
+	background-image: url(../images/button.jpg);
+        border:1px #000000 outset;
+	margin:4px 4px;
+	padding:1px 3%;
+        font-weight: bold;
+         color: #FFFFFF;
+	 overflow:hidden;
+	 display:block;
+         border-radius: 5px;
+	 float:right;
+	}
+        input[type=submit] {
+	background-image: url(../images/button.jpg);
+        border-radius: 5px;
+	/*-moz-border-radius: 15px; -webkit-border-radius: 15px; -khtml-border-radius: 15px; border-radius: 15px;
+        
+        */
+        
+        border:1px #000000 outset;
+	color: #FFFFFF;
+	display: block;
+	font-size: 15px;
+        margin: 4px 4px;
+	padding: 3px 15px;
+        font-weight: bold;
+        overflow: hidden;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: initial;
+    }
+    .comment_cover{
+        background-color: #E8FAFE;
+        margin-top: 2px;
+        padding: 4px;
+        overflow: hidden;
+    }
+    .comment_cover_sub{
+        width: 90%;
+        text-align: justify;
+        border: 1px #FFFFFF solid;
+        overflow: hidden;
+    }
+    .commenter_photo
+    {
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+/*        border: 1px crimson solid;*/
+        float: left;
+    }
+    .commenter_photo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .comment_box{
+        margin-top: 2px;
+        background-color: #fff;
+        padding: 4px;
+        word-wrap: break-word;
+        float: left;
+    }
+    .commenter_link_style{
+        min-width: 3%;
+        margin-right: 2%;
+        width: auto;
+        min-height: 10px;
+        color: black;
+        text-decoration: none;  
+        float: left;
+    }
+    .see_more_link_style{
+        min-width: 3%;
+        margin-left: 2%;
+        width: auto;
+        min-height: 10px;
+        color: blue;
+        text-decoration: none;  
+    }
+    .commenter_link_style a:hover, a:visited{text-decoration: underline;}
+    
+    /*for bloger ui*/
+    .bloger_header{
+        height:170px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#508FC6), color-stop(100%,#EDFAFF)); /* Chrome,Safari4+ */
+        border:1px #E2E2E2 solid;
+    }
+    .header_cover{
+       height: 120px;
+       background-color: skyblue;
+       padding: 10px 0 0 10px;
+       border: 1px #660000 solid;
+       overflow:visible;
+    }
+    .cover_photo{overflow:hidden;}
+    .cover_photo img{width: 100%;}
+    .bloger_img{
+        border: 1px blue solid;
+        border-radius: 3px;
+        background-color: white;
+        width: 20%;
+        height: 140px;
+        padding: 3px;
+    }
+    .bloger_img img{
+        width: 100%;
+        height: 100%;
+    }
+    .bloger_menubar{
+        border: 1px #660000 solid; 
+        padding: 0;
+        height: 36px;
+    }
+   .bloger_menu_item
+    {
+        border-left: 1px #000000 outset;
+	padding:8px 3%;
+        font-weight: bold;
+	 overflow:hidden;
+	 display:block;
+	 float:right;
+    } 
+    .bloger_statistics{width: 75%;
+    height: auto}
+    
